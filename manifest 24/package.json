@@ -1,0 +1,26 @@
+{
+  "name": "pdf-convert-doc-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rm -rf uploads && mkdir uploads && node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.1",
+    "pdf-parse": "^1.1.1",
+    "pdf2image": "^1.2.3"
+  }
+}

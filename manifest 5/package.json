@@ -1,0 +1,34 @@
+{
+  "name": "js-iotinabox",
+  "version": "1.0.0",
+  "description": "JS library to interact with IoT in a Box API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint --ext .js lib/ index.js",
+    "lint-fix": "./node_modules/.bin/eslint --fix --ext .js lib/ index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myDevicesIoT/js-iotinabox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/myDevicesIoT/js-iotinabox/issues"
+  },
+  "homepage": "https://github.com/myDevicesIoT/js-iotinabox#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "superagent": "^5.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.17.0"
+  }
+}
